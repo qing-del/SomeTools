@@ -32,8 +32,8 @@ int main() {
     //开始重复执行点击操作
     int k = 0;
     while (t--) {
-        printf("已完成第%d次点击", k);
-        simulateClick(1035, 977, waitTime);
+        printf("已完成第%d次点击", ++k);
+        simulateClick(1197, 987, waitTime);
     }
     return 0;
 }
